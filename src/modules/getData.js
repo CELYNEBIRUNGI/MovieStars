@@ -1,5 +1,5 @@
 import { seriesApiUrl, likeUrl } from './api.js';
-import { itemCounter } from './itemCount.js';
+import { itemCounter } from './itemcount.js';
 
 const getSeries = async () => {
   const response = await fetch(seriesApiUrl);
